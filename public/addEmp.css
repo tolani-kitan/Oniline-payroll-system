@@ -1,0 +1,61 @@
+body{
+    
+}
+
+.heading{
+    background-color: #3333ff;
+    height: 80px;
+    color: white;
+    top: 0;
+    padding-top: 10px;
+}
+
+
+.form{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    margin-top: 5%;
+    padding-top: 70px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: justify;
+    font-size: 120%;
+    background-color: white;
+    color: #000080;
+}
+
+.tels{
+    height: 100%;  
+  
+}
+
+#shelly{
+    padding-top: 10px;
+}
+
+#howy {
+    padding-right: 10px; 
+}
+
+.flex-container {
+    display: flex;
+    background-color:	#cce6ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.stew{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding-top: 80px;
+}
+
+.shade{
+    height: 30px;
+}

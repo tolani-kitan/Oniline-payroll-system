@@ -1,0 +1,59 @@
+body{
+    background-color: 	#cce6ff;
+}
+
+.heading{
+    background-color: #3333ff;
+    height: 80px;
+    color: white;
+    top: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+.doly{
+    height: 100%;
+}
+
+.fsize{
+    margin: auto;
+    width: 35%;
+    margin-top: 5%;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: justify;
+    background-color: white;
+    font-size: 120%;
+} 
+
+#head{
+    font-size: 35px;
+}
+
+.fsize input{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Cbottom {
+    color: #ff5050;
+}
+
+.ndiv{
+    background-image: url('../Images/lappy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer{
+    text-align: center;
+    background-color: #3333ff;
+    bottom: 0;
+   
+}
+
+
