@@ -23,10 +23,10 @@ $.ajax({
                     <td>
                         ${e[i].Status}
                         <td>
-                        <button type="button" class="btn btn-primary" id="del-${e[i].id}" class="delete-btn">Delete</button>
+                        <button type="button" class="btn btn-primary delete-btn" id="del-${e[i].id}">Delete</button>
                         </td>
                         <td>
-                        <button type="button" class="btn btn-primary edit-btn" id="edt-${e[i].id}">Edit</button>
+                        <button type="button" class="btn btn-primary" id="edt-${e[i].id}">Edit</button>
                         </td>
                         <td>
                         <button type="button" class="btn btn-primary">Pay</button>
@@ -43,9 +43,24 @@ $.ajax({
                         url:`http://localhost:3000/users/${id}`,
                         method: 'delete'
                     }).done((e)=>{
-
+                    
                     })
                 })
+
+                $('.edit-btn').click(e=>{
+                    let id= e.target.id.split('del-').join('')
+                    alert(id)
+                    $.ajax({
+                        url:`http://localhost:3000/users/${id}`,
+                        method: 'put',
+                        data: {
+                            first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), status: false
+                        }
+                    }).done((e) =>{
+                        
+                    })
+                })
+
 
             })
 
@@ -55,3 +70,8 @@ $.ajax({
             })
 
 
+var url = new URL(location.href).search;
+
+var search_params = new URLSearchParams(url);
+
+var id = search_params.get("id");

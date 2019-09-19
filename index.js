@@ -1,4 +1,4 @@
-//alert("heyyo")
+alert("heyyo")
 $('#lenny').click ((e) =>{
     e.preventDefault();
     let first_Name = $('#firstN').val();
@@ -13,7 +13,7 @@ $('#lenny').click ((e) =>{
 
 
     $.ajax ({
-        url: 'http://localhost:3000/users',
+        url: `http://localhost:3000/users`,
         method: 'post',
         data: {
             first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), status: false
@@ -35,3 +35,5 @@ $('#lenny').click ((e) =>{
     alert("Employee was added successfully");
     })
 })
+
+

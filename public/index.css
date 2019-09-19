@@ -16,15 +16,16 @@ body{
 
 .fsize{
     margin: auto;
-    width: 35%;
+    width: 30%;
     margin-top: 5%;
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
+    padding-left: 30px;
     text-align: justify;
     background-color: white;
     font-size: 120%;
+    box-shadow: 10px 10px 5px #b3d9ff;
 } 
 
 #head{
@@ -32,7 +33,7 @@ body{
 }
 
 .fsize input{
-    width: 90%;
+    width: 100%;
     margin: auto;
     padding-top: 20px;
     padding-bottom: 20px;

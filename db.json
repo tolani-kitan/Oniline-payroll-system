@@ -27,9 +27,6 @@
       "Status": false
     },
     {
-      "id": 3
-    },
-    {
       "id": 4,
       "first_Name": "Bela",
       "last_Name": "Martins",
@@ -41,43 +38,6 @@
       "department": "Human Resources",
       "level": 3,
       "Status": "false"
-    },
-    {
-      "first_Name": "Kanmi",
-      "last_Name": "Oladapo",
-      "gender": "male",
-      "age": "24",
-      "email": "kanmi@gmail.com",
-      "address": "Adebimpe Street",
-      "city": "Lagos",
-      "department": "Human Resources",
-      "level": "2",
-      "id": 5
-    },
-    {
-      "first_Name": "Chima",
-      "last_Name": "Igwe",
-      "gender": "male",
-      "age": "45",
-      "email": "chima@hotmail.com",
-      "address": "Oguntona Crescent",
-      "city": "Abuja",
-      "department": "IT",
-      "level": "2",
-      "id": 6
-    },
-    {
-      "first_Name": "John",
-      "last_Name": "Okunowo",
-      "gender": "male",
-      "age": "20",
-      "email": "johnfeyisayo.c",
-      "address": "gseyrh",
-      "city": "lago",
-      "department": "ijsdgvr",
-      "level": "3",
-      "status": "false",
-      "id": 7
     }
   ],
   "PayRoll": [
@@ -112,7 +72,9 @@
       "Amount": 350000
     }
   ],
-  "profile": {
-    "name": "typicode"
+  "admin": {
+    "name": "tolani",
+    "email": "tolani@gmail.com",
+    "password": "morenike"
   }
 }
