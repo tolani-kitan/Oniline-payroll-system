@@ -1,80 +1,97 @@
 {
   "users": [
     {
-      "id": 1,
       "first_Name": "Dolapo",
       "last_Name": "Adeleye",
       "gender": "male",
-      "age": 24,
+      "age": "24",
       "email": "dolyp@gmail.com",
       "address": "Surulere",
       "city": "Lagos",
       "department": "Engineering",
-      "level": 1,
-      "Status": false
+      "level": "1",
+      "Status": "Last Paid On: Thu Sep 19 2019 13:48:59",
+      "salary": "1600000",
+      "id": 1
     },
     {
-      "id": 2,
-      "first_Name": "Tolani",
-      "last_Name": "Okuns",
-      "gender": "Female",
-      "age": 30,
-      "email": "tola@gmail.com",
-      "address": "Alapere",
-      "city": "Ketu",
-      "department": "IT",
-      "level": 5,
-      "Status": false
+      "first_Name": "shdbfe",
+      "last_Name": "cxvds",
+      "gender": "s",
+      "age": "23",
+      "email": "svdvbrcdsv",
+      "address": "dsevZdcd",
+      "city": "kjo",
+      "department": "sfe",
+      "level": "1",
+      "Status": "Last Paid On: Thu Sep 19 2019 13:48:59",
+      "salary": "1110000",
+      "id": 5
     },
     {
-      "id": 4,
-      "first_Name": "Bela",
-      "last_Name": "Martins",
-      "gender": "male",
-      "age": 34,
-      "email": "bela@gmail.com",
-      "address": "lokoja town",
-      "city": "Kogi",
-      "department": "Human Resources",
-      "level": 3,
-      "Status": "false"
+      "first_Name": "Rmi",
+      "last_Name": "Lohh",
+      "gender": "f",
+      "age": "67",
+      "email": "hisf",
+      "address": "geth",
+      "city": "kp",
+      "department": "dfc",
+      "level": "2",
+      "Status": "Last Paid On: Thu Sep 19 2019 13:48:59",
+      "salary": "760000",
+      "id": 6
+    },
+    {
+      "first_Name": "Jumoke",
+      "last_Name": "Ayedi",
+      "gender": "female",
+      "age": "24",
+      "email": "jumy@yahoo.com",
+      "address": "Akure",
+      "city": "Ondo",
+      "department": "Engineering",
+      "level": "1",
+      "Status": "Last Paid On: Thu Sep 19 2019 13:48:59",
+      "salary": "660000",
+      "id": 7
     }
   ],
-  "PayRoll": [
+  "payRoll": [
     {
       "id": 1,
-      "levelID": 1,
+      "levelID": "1",
       "Amount": 100000
     },
     {
       "id": 2,
-      "levelID": 2,
+      "levelID": "2",
       "Amount": 150000
     },
     {
       "id": 3,
-      "levelID": 3,
+      "levelID": "3",
       "Amount": 200000
     },
     {
-      "id": 3,
-      "levelID": 3,
-      "Amount": 250000
-    },
-    {
       "id": 4,
-      "levelID": 4,
+      "levelID": "4",
       "Amount": 300000
     },
     {
       "id": 5,
-      "levelID": 5,
+      "levelID": "5",
       "Amount": 350000
     }
   ],
-  "admin": {
-    "name": "tolani",
-    "email": "tolani@gmail.com",
-    "password": "morenike"
-  }
+  "admin": [
+    {
+      "name": "tolani",
+      "email": "tolani@gmail.com",
+      "password": "morenike"
+    }
+  ],
+  "salary": [
+    {}
+  ]
 }

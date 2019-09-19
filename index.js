@@ -1,4 +1,4 @@
-alert("heyyo")
+
 $('#lenny').click ((e) =>{
     e.preventDefault();
     let first_Name = $('#firstN').val();
@@ -16,7 +16,7 @@ $('#lenny').click ((e) =>{
         url: `http://localhost:3000/users`,
         method: 'post',
         data: {
-            first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), status: false
+            first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), Status: '', salary: "0"
         }
     }).done((e) => {
         localStorage.setItem('email', email);

@@ -26,7 +26,7 @@ $.ajax({
                         <button type="button" class="btn btn-primary delete-btn" id="del-${e[i].id}">Delete</button>
                         </td>
                         <td>
-                        <button type="button" class="btn btn-primary" id="edt-${e[i].id}">Edit</button>
+                        <a href="updatePage.html?id=${e[i].id}" class="btn btn-primary" id="edt-${e[i].id}">Edit</a>
                         </td>
                         <td>
                         <button type="button" class="btn btn-primary">Pay</button>
@@ -47,26 +47,12 @@ $.ajax({
                     })
                 })
 
-                $('.edit-btn').click(e=>{
-                    let id= e.target.id.split('del-').join('')
-                    alert(id)
-                    $.ajax({
-                        url:`http://localhost:3000/users/${id}`,
-                        method: 'put',
-                        data: {
-                            first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), status: false
-                        }
-                    }).done((e) =>{
-                        
-                    })
-                })
-
 
             })
 
             $('#raj').click ((e) =>{
                 e.preventDefault();
-                window.location.replace('./addEmp.html')
+                //window.location.replace('./addEmp.html')
             })
 
 
