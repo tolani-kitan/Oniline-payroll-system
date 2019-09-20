@@ -3,7 +3,7 @@
 var url = new URL(location.href).search;
 var search_params = new URLSearchParams(url);
 var eid = search_params.get("id");
-console.log(eid)
+
 
 const eUrl = "http://localhost:3000/users/" + eid
 $.ajax({
@@ -45,7 +45,8 @@ $('#uplenny').click ((e) =>{
         data: {
             first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), Status: Status, salary: salary
         }
-    }).done((e) => {
+    }) 
+    .done((e) => {
         localStorage.setItem('email', email);
         window.location.replace('./employee.html')
         $('#uage').val('');
@@ -66,5 +67,3 @@ $('#uplenny').click ((e) =>{
     alert("Employee has been successfully Updated");
     })
 })
-
-console.log(eUrl)

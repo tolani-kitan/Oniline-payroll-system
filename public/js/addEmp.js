@@ -17,23 +17,27 @@ $('#lenny1').click ((e) =>{
         method: 'post',
         data: {
             first_Name, last_Name, gender, age: Number(age), email, address, city, department, level: Number(level), Status: '', salary: "0"
-        }
-    
-    }).done((e) => {
-        window.location.replace('./employee.html')
-        $('#age').val('');
-        $('#firstN').val('');
-        $('#lastN').val('');
-        $('#gender').val('');
-    Number($('#age').val(''));
-        $('#email').val('');
-        $('#address').val('');
-        $('#city').val('');
-        $('#dept').val('');
-    Number($('#level').val(''));
+        },
+        success: function(e){
+            window.location.replace('../employee.html')
+            alert("Employee was added successfully");
+    // }).done((e) => {
+    //     alert()
+    //     window.location.replace('./employee.html')
+    //     $('#age').val('');
+    //     $('#firstN').val('');
+    //     $('#lastN').val('');
+    //     $('#gender').val('');
+    // Number($('#age').val(''));
+    //     $('#email').val('');
+    //     $('#address').val('');
+    //     $('#city').val('');
+    //     $('#dept').val('');
+    // Number($('#level').val(''));
 
-    alert("Employee was added successfully");
-    })
+    // alert("Employee was added successfully");
+    // })
+        }
 })
 
-
+})
