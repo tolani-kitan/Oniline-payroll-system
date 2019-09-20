@@ -1,3 +1,5 @@
+
+//get the url parameters
 var url = new URL(location.href).search;
 var search_params = new URLSearchParams(url);
 var eid = search_params.get("id");
@@ -61,7 +63,7 @@ $('#uplenny').click ((e) =>{
 
     
 
-    alert("Employee was added successfully");
+    alert("Employee has been successfully Updated");
     })
 })
 

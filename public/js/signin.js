@@ -1,19 +1,21 @@
 
 $('#shelly').click((e) =>{
-    alert("hello")
     e.preventDefault();
-    let email = $('#email').val();
-    let password = $('#password').val();
+    let email = $('#exampleInputEmail1').val();
+    let password = $('#exampleInputPassword1').val();
+    
     $.ajax({
         url: `http://localhost:3000/admin`,
         method: 'get',
     }).done((e) =>{
         for(let i = 0; i < e.length; i++){
-            if(e[i].email === Email && e[i].password === Password){
+            if(e[i].email === email && e[i].password === password){
                 localStorage.setItems('email', email);
-                windows.location.replace('./employee.html');
+                window.location.replace("../employee.html");
                 $('#email').val('');
                 $('#password').val('');
+            }else{
+                alert('Authenticate failed');
             }
         }
     })
